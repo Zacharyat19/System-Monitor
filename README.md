@@ -2,6 +2,7 @@
 Tool to display system metrics for Raspberry Pi 5
 
 # Example
+```
 $ curl -s http://pi:9100/metrics
 # HELP cpu_seconds_total Cumulative CPU time by mode.
 # TYPE cpu_seconds_total counter
@@ -35,3 +36,4 @@ fs_bytes{mount="/",fstype="ext4",state="avail"} 3.1049728e+10
 # TYPE exporter_scrape_duration_seconds summary
 exporter_scrape_duration_seconds_count 37
 exporter_scrape_duration_seconds_sum 0.031
+```
